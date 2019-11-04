@@ -3,24 +3,29 @@
 @font-face {
   font-family: 'Open Sans';
   src: url('./OpenSans-Regular.ttf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Open Sans Light';
   src: url('./OpenSans-Light.ttf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Open Sans SemiBold';
   src: url('./OpenSans-SemiBold.ttf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Open Sans Bold';
   src: url('./OpenSans-Bold.ttf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Open Sans Italic';
   src: url('./OpenSans-Italic.ttf');
+  font-display: swap;
 }
