@@ -5,7 +5,7 @@ import { Provider } from 'react-redux';
 import { ThemeProvider } from 'styled-components';
 import { BrowserRouter as Router, Switch } from "react-router-dom";
 
-import GlobalStyle from './index-styles';
+import GlobalStyle from './styled';
 import colors from './utils/colors';
 
 import reducer from './reducers';

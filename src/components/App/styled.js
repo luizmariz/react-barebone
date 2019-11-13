@@ -1,14 +1,14 @@
 import styled from 'styled-components';
 
-export const AppContainer = styled.div`
+export const Container = styled.div`
   text-align: center;
 `;
 
-export const AppLogo = styled.img`
+export const Logo = styled.img`
   height: 40vmin;
 `;
 
-export const AppHeader = styled.header`
+export const Header = styled.header`
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -17,7 +17,7 @@ export const AppHeader = styled.header`
   font-size: calc(10px + 2vmin);
 `;
 
-export const AppLink = styled.a`
+export const Link = styled.a`
   color: ${props => props.theme.link};
   margin-bottom: 1.5rem;
 `;

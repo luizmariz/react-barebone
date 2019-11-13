@@ -1,17 +1,12 @@
 import React from 'react';
 import logo from '../../assets/images/logo.svg';
-import {
-  AppContainer,
-  AppHeader,
-  AppLogo,
-  AppLink
-} from './App-styles';
+import * as S from './styled';
 
-function App () {
+function App() {
   return (
-    <AppContainer>
-      <AppHeader>
-        <AppLogo
+    <S.Container>
+      <S.Header>
+        <S.Logo
           src={logo}
           alt="logo"
         />
@@ -19,15 +14,15 @@ function App () {
           Edit <code>src/components/App</code> and save to reload.
           Barebone from create react-app
         </p>
-        <AppLink
+        <S.Link
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn React
-        </AppLink>
-      </AppHeader>
-    </AppContainer>
+        </S.Link>
+      </S.Header>
+    </S.Container>
   );
 }
 
